@@ -1,0 +1,29 @@
+{
+  "name": "olodb",
+  "version": "0.1.0",
+  "description": "olo concurrent database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onlabsorg/olodb.git"
+  },
+  "author": "Marcello Del Buono",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/onlabsorg/olodb/issues"
+  },
+  "homepage": "https://github.com/onlabsorg/olodb#readme",
+  "dependencies": {
+    "asyncawait": "^1.0.6",
+    "minimatch": "^3.0.3",
+    "sharedb": "^1.0.0-beta.7",
+    "sharedb-mingo-memory": "^1.0.0-beta",
+    "sharedb-mongo": "^1.0.0-beta.3",
+    "websocket-json-stream": "0.0.3",
+    "winston": "^2.3.1",
+    "ws": "^2.2.0"
+  }
+}
