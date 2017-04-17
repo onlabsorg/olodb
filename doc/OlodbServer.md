@@ -1,4 +1,4 @@
-# OlodbServer module- **Version:** 0.1.2- **Author:** Marcello Del Buono <m.delbuono@onlabs.org>- **License:** MIT- **Content:**    - [class OlodbServer][olodbserver-class]  
+# OlodbServer module- **Version:** 0.1.2- **Author:** Marcello Del Buono <m.delbuono@onlabs.org>- **License:** MIT- **Content:**    - [class OlodbServer](#olodbserver-class)  
 ## OlodbServer classClass representing a concurrent JSON database server over WebSockets.  It uses [ShareDB][] under the hood.  A client implementation is [olojs][].  
 ### Constructor```javascriptvar olodb = new OlodbStore();```This will create a server bound to a [MongoDB][] database.    For testing purposes it is also possible to bind to an in-memory database:```javascriptvar olodb = new OlodbStore("memory");```  
 ### OlodbServer.prototype.listen(httpServer) - async methodStarts listening to incoming client connections.  - **httpServer** is a [nodejs http.Server](https://nodejs.org/dist/latest-v6.x/docs/api/http.html#http_class_http_server)  

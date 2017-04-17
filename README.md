@@ -53,7 +53,7 @@ olodbServer.listen(httpServer).then(/*...*/).catch(/*...*/);
 ## Documentation
 
 * API's
-    * [OlodbServer][] object: represents a data store
+    * [OlodbServer][]: the server class
 
 
 ## Related projects
