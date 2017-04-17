@@ -1,24 +1,42 @@
 {
   "name": "olodb",
-  "version": "0.1.0",
-  "description": "olo concurrent database",
+  "version": "0.1.2",
+  "description": "OT concurrent JSON database",
+  "keywords": [
+    "olo",
+    "concurrent",
+    "realtime",
+    "ShareDB",
+    "ShareJS",
+    "OT",
+    "Operational Transformation"
+  ],
+  "homepage": "https://github.com/onlabsorg/olodb#readme",
+  "bugs": {
+    "url": "https://github.com/onlabsorg/olodb/issues"
+  },
+  "license": "MIT",
+  "author": "Marcello Del Buono <m.delbuono@onlabs.org> (https://plus.google.com/u/0/+MarcelloDelBuono)",
+  "files": [
+    "bin",
+    "doc",
+    "lib"
+  ],
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "directories": {
+    "lib": "lib",
+    "doc": "doc"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/onlabsorg/olodb.git"
   },
-  "author": "Marcello Del Buono",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/onlabsorg/olodb/issues"
+  "scripts": {
+    "test": "echo \"This package is tested in olojs\"",
+    "docgen": "node bin/docgen.js"
   },
-  "homepage": "https://github.com/onlabsorg/olodb#readme",
   "dependencies": {
     "asyncawait": "^1.0.6",
-    "minimatch": "^3.0.3",
     "sharedb": "^1.0.0-beta.7",
     "sharedb-mingo-memory": "^1.0.0-beta",
     "sharedb-mongo": "^1.0.0-beta.3",
