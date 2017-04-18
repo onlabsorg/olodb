@@ -64,21 +64,20 @@ You may also be interested in the following projects:
 * [ShareDB][]: A database frontend for concurrent editing systems on which olodb is based
 * [olowc][]: Collection of web-components acting as web interface to the remote data structures provided by olojs.
 * [olopy][]: A Python implementation of olojs.
-* [olo][]: A web application leveraging olojs, [olowc][] and [olodb][] to create a
-  concurrent data browser and editor.
+* [olowa][]: A web application leveraging olojs, [olowc][] and [olodb][] to create a
+  concurrent data browser and editor for the web.
 
 
 ## License
-MIT - Copyright (c) 2017 Marcello Del Buono (m.delbuono@onlabs.org)
+MIT - Copyright (c) 2017 Marcello Del Buono <m.delbuono@onlabs.org>
 
 
 
 
 [OlodbServer]: ./doc/OlodbServer.md
-[olo]: https://github.com/onlabsorg/olo
+[olowa]: https://github.com/onlabsorg/olowa
 [olojs]: https://github.com/onlabsorg/olojs
-[ShareDB]: https://github.com/share/sharedb
 [olowc]: https://github.com/onlabsorg/olowc
 [olopy]: https://github.com/onlabsorg/olopy
-[olo]: https://github.com/onlabsorg/olo
+[ShareDB]: https://github.com/share/sharedb
 
