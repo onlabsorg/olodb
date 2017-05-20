@@ -1,3 +1,3 @@
 
 exports.Server = require("./lib/OlodbServer");
-exports.rights = require("./lib/rights");
+exports.roles = require("./lib/roles");
