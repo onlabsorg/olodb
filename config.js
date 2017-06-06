@@ -11,10 +11,10 @@ System.config({
     "chai": "npm:chai@3.5.0",
     "co": "npm:co@4.6.0",
     "lodash": "npm:lodash@4.17.4",
-    "olojs": "github:onlabsorg/olojs@0.2.6",
+    "olojs": "github:onlabsorg/olojs@0.3.0",
     "sharedb": "npm:sharedb@1.0.0-beta.7",
     "uuid": "npm:uuid@3.0.1",
-    "ws": "lib/ws",
+    "ws": "lib/client/ws",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.4.1"
     },
@@ -56,7 +56,7 @@ System.config({
     "github:jspm/nodelibs-vm@0.1.0": {
       "vm-browserify": "npm:vm-browserify@0.0.4"
     },
-    "github:onlabsorg/olojs@0.2.6": {
+    "github:onlabsorg/olojs@0.3.0": {
       "co": "npm:co@4.6.0",
       "lodash": "npm:lodash@4.17.4",
       "uuid": "npm:uuid@3.0.1"
@@ -112,7 +112,7 @@ System.config({
       "buffer": "github:jspm/nodelibs-buffer@0.1.1",
       "constants": "github:jspm/nodelibs-constants@0.1.0",
       "crypto": "github:jspm/nodelibs-crypto@0.1.0",
-      "randombytes": "npm:randombytes@2.0.3",
+      "randombytes": "npm:randombytes@2.0.4",
       "systemjs-json": "github:systemjs/plugin-json@0.1.2"
     },
     "npm:browserify-sign@4.0.4": {
@@ -178,7 +178,7 @@ System.config({
       "crypto": "github:jspm/nodelibs-crypto@0.1.0",
       "inherits": "npm:inherits@2.0.1",
       "ripemd160": "npm:ripemd160@2.0.1",
-      "safe-buffer": "npm:safe-buffer@5.0.1",
+      "safe-buffer": "npm:safe-buffer@5.1.0",
       "sha.js": "npm:sha.js@2.4.8"
     },
     "npm:crypto-browserify@3.11.0": {
@@ -191,7 +191,7 @@ System.config({
       "inherits": "npm:inherits@2.0.1",
       "pbkdf2": "npm:pbkdf2@3.0.12",
       "public-encrypt": "npm:public-encrypt@4.0.0",
-      "randombytes": "npm:randombytes@2.0.3",
+      "randombytes": "npm:randombytes@2.0.4",
       "systemjs-json": "github:systemjs/plugin-json@0.1.2"
     },
     "npm:deep-eql@0.1.3": {
@@ -208,7 +208,7 @@ System.config({
       "buffer": "github:jspm/nodelibs-buffer@0.1.1",
       "crypto": "github:jspm/nodelibs-crypto@0.1.0",
       "miller-rabin": "npm:miller-rabin@4.0.0",
-      "randombytes": "npm:randombytes@2.0.3",
+      "randombytes": "npm:randombytes@2.0.4",
       "systemjs-json": "github:systemjs/plugin-json@0.1.2"
     },
     "npm:elliptic@6.4.0": {
@@ -264,7 +264,7 @@ System.config({
       "crypto": "github:jspm/nodelibs-crypto@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2",
       "ripemd160": "npm:ripemd160@2.0.1",
-      "safe-buffer": "npm:safe-buffer@5.0.1",
+      "safe-buffer": "npm:safe-buffer@5.1.0",
       "sha.js": "npm:sha.js@2.4.8"
     },
     "npm:process@0.11.10": {
@@ -279,16 +279,16 @@ System.config({
       "create-hash": "npm:create-hash@1.1.3",
       "crypto": "github:jspm/nodelibs-crypto@0.1.0",
       "parse-asn1": "npm:parse-asn1@5.1.0",
-      "randombytes": "npm:randombytes@2.0.3"
+      "randombytes": "npm:randombytes@2.0.4"
     },
     "npm:punycode@1.3.2": {
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
-    "npm:randombytes@2.0.3": {
+    "npm:randombytes@2.0.4": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.1",
       "crypto": "github:jspm/nodelibs-crypto@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2",
-      "systemjs-json": "github:systemjs/plugin-json@0.1.2"
+      "safe-buffer": "npm:safe-buffer@5.1.0"
     },
     "npm:readable-stream@1.1.14": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.1",
@@ -305,7 +305,7 @@ System.config({
       "hash-base": "npm:hash-base@2.0.2",
       "inherits": "npm:inherits@2.0.1"
     },
-    "npm:safe-buffer@5.0.1": {
+    "npm:safe-buffer@5.1.0": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.1"
     },
     "npm:sha.js@2.4.8": {

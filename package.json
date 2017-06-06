@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "co": "^4.6.0",
-    "olojs": "^0.2.4",
+    "olojs": "^0.3.0",
     "sharedb": "^1.0.0-beta.7",
     "sharedb-mingo-memory": "^1.0.0-beta",
     "sharedb-mongo": "^1.0.0-beta.3",
@@ -53,13 +53,12 @@
   "jspm": {
     "directories": {
       "doc": "doc",
-      "lib": "lib"
     },
     "dependencies": {
       "chai": "npm:chai@^3.5.0",
       "co": "npm:co@^4.6.0",
       "lodash": "npm:lodash@^4.17.4",
-      "olojs": "github:onlabsorg/olojs@^0.2.6",
+      "olojs": "github:onlabsorg/olojs@^0.3.0",
       "sharedb": "npm:sharedb@^1.0.0-beta.7",
       "uuid": "npm:uuid@^3.0.1"
     },
