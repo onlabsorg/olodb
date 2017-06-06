@@ -1,6 +1,6 @@
 {
   "name": "olodb",
-  "version": "0.1.7",
+  "version": "0.2.0",
   "description": "OT concurrent JSON database",
   "keywords": [
     "olo",
@@ -52,7 +52,7 @@
   },
   "jspm": {
     "directories": {
-      "doc": "doc",
+      "doc": "doc"
     },
     "dependencies": {
       "chai": "npm:chai@^3.5.0",
